@@ -268,6 +268,26 @@ redirect_uri | String | "https://example.com/redirect-uri" | Alamat uri yang aka
 
 ## Konfirmasi data
 
+| Field | Description | 
+| ------ | ----------- |
+|  transaction_id: $id  | parameter untuk variabel *id* transaksi |
+| promo_code : $promoCode | parameter untuk variabel kode promo  |
+
+| Field | Tipe Data | Contoh | Deskripsi |
+| ------ | ----- | --------- | ------------ |
+| balance | integer | 120000 | saldo konsumen |
+| min_redeem | integer | 1659 | minimal menukar point |
+| max_redeem | integer | 19522 | maksimal menukar point |
+| max_slider_points | integer | 19540 | maksimal point berdasarkan harga |
+| fee | string | 7 | biaya menggunakan pointsnet |
+| point_step| integer | 1234 | nilai point per step |
+| point_value | decimal | 0.0051219512195122 | nilai point |
+| promo_points | integer | 0 | promo point |
+| promo_points_value | integer | 0 | nilai promo point |
+| message | string | Your transaction was successful | pesan tentang transaksi yang berhasil/tidak |
+
+
+
 ```scheme
 confirm (
   transaction_id: "536e97e9-0d29-43ec-b8d5-a505d3ee6a8f",
