@@ -565,10 +565,10 @@ theme_detail (
 ```
 ```json
 {  
-   "banner": "https://banner.com", 
-   "card_image_front":"http://image_front.com",
-   "card_image_back":"http://image_back.com",
-   "card_image_logo":"http://image_logo.com",
+   "banner": "https://example.com/banner.jpg", 
+   "card_image_front":"http://example.com/image_front.jpg",
+   "card_image_back":"http://example.com/image_back.jpg",
+   "card_image_logo":"http://example.com/image_logo.jpg",
    "background_color_first":"#3ca6ed",
    "background_color_second":"#593030",
    "angle":180 
@@ -587,10 +587,10 @@ programme_id | String | "123e4567-e89b-12d3-a456-426655440000" | T | Id program
 ### Fields
 Field | Tipe Data | Contoh | Deskripsi
 ------|-----------|--------|----------
-banner | String | "https://banner.com" | Url gambar banner
-card_image_front | String | "http://image_front.com" | Url gambar depan
-card_image_back | String | "http://image_back.com" | Url gambar belakang
-card_image_logo | String | "http://image_logo.com" |Url gambbar logo
+banner | String | "https://example.com/banner.jpg" | Url gambar banner
+card_image_front | String | "http://example.com/image_front.jpg" | Url gambar depan
+card_image_back | String | "http://example.com/image_back.jpg" | Url gambar belakang
+card_image_logo | String | "http://example.com/image_logo.jpg" |Url gambbar logo
 background_color_first | String |"#3ca6ed" | Background warna utama
 background_color_second | String | "#593030" | Background warna kedua
 angle | Interger | 180 | Tata letak derajat gradasi desain
