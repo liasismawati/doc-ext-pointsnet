@@ -546,3 +546,51 @@ background_color_first | String | "#FF5737" | Ini adalah kode warna latar pertam
 background_color_first | String | "#FF5733" | Ini adalah kode warna latar kedua
 angle | Integer | 360 | Ini adalah nilai derajat dari tata letak tema
 [Kembali ke daftar obyek](#obyek)
+
+
+## Detail Theme
+```scheme
+theme_detail (
+        id: "f81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+        programme_id: "123e4567-e89b-12d3-a456-426655440000"
+      ) {
+        banner,
+        card_image_front,
+        card_image_back,
+        card_image_logo,
+        background_color_first,
+        background_color_second,
+        angle,
+      }
+```
+```json
+{  
+   "banner": "https://banner.com", 
+   "card_image_front":"http://image_front.com",
+   "card_image_back":"http://image_back.com",
+   "card_image_logo":"http://image_logo.com",
+   "background_color_first":"#3ca6ed",
+   "background_color_second":"#593030",
+   "angle":180 
+}
+```
+
+### Pejelasan
+Query ini berfungsi untuk mengambil data detail tema berdasar kan Id tema atau Id program.
+
+### Argumen
+Field | Tipe Data | Contoh | Wajib | Deskripsi
+------|-----------|--------|-------|-----------
+Id | String | "f81d4fae-7dec-11d0-a765-00a0c91e6bf6" | T | Id tema
+programme_id | String | "123e4567-e89b-12d3-a456-426655440000" | T | Id program
+
+### Fields
+Field | Tipe Data | Contoh | Deskripsi
+------|-----------|--------|----------
+banner | String | "https://banner.com" | Url gambar banner
+card_image_front | String | "http://image_front.com" | Url gambar depan
+card_image_back | String | "http://image_back.com" | Url gambar belakang
+card_image_logo | String | "http://image_logo.com" |Url gambbar logo
+background_color_first | String |"#3ca6ed" | Background warna utama
+background_color_second | String | "#593030" | Background warna kedua
+angle | Interger | 180 | Tata letak derajat gradasi desain
