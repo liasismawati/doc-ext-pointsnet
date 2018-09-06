@@ -590,7 +590,7 @@ Field | Tipe Data | Contoh | Deskripsi
 banner | String | "https://example.com/banner.jpg" | Url gambar banner
 card_image_front | String | "http://example.com/image_front.jpg" | Url gambar depan
 card_image_back | String | "http://example.com/image_back.jpg" | Url gambar belakang
-card_image_logo | String | "http://example.com/image_logo.jpg" |Url gambbar logo
+card_image_logo | String | "http://example.com/image_logo.jpg" |Url gambar logo
 background_color_first | String |"#3ca6ed" | Background warna utama
 background_color_second | String | "#593030" | Background warna kedua
 angle | Interger | 180 | Tata letak derajat gradasi desain
